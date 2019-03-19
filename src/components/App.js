@@ -1,10 +1,13 @@
 import React from 'react'
+import Navbar from './Navbar'
+import Hero from './Hero'
 
 class App extends React.Component{
     render(){
         return(
             <div>
-                <h1>yeehaw!! Get to work Senpai!</h1>
+                <Navbar />
+                <Hero />
             </div>
         )
     }
