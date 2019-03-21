@@ -68,7 +68,7 @@ button:focus {
     margin-top: 15vh;
 }
 
-.hero-tagline, .meet-tagline {
+.hero-tagline, .meet-tagline, .clean-tagline {
     font-weight: bold;
     margin-top: 30vh;
 }
@@ -106,8 +106,28 @@ button:focus {
     padding-bottom: 100px; 
 }
 
+.ease-img {
+    max-width: 50%;
+    max-height: 30%;
+    margin: 100px auto 25px;
+    display: block;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.ease-text {
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 15px auto;
+    font-size: 18px;
+}
+
 @media screen and (min-device-width: 320px) and (max-device-width: 359px){
-    .hero-tagline, .meet-h1, .meet-tagline{
+    .hero-tagline, .meet-h1, .meet-tagline, .clean-tagline{
         font-size: 28px;
     }
     .hero-text, .hero-text > a {
@@ -120,7 +140,7 @@ button:focus {
     .mob-hide {
         display: none;
     }
-    .meet-tagline {
+    .meet-tagline, .clean-tagline {
         margin-top: 25px;
     }
     .meet-img {
@@ -135,10 +155,24 @@ button:focus {
         padding-top: 25px;
         padding-bottom: 25px; 
     }
+    
+    .ease-img {
+        max-width: 50%;
+        max-height: 30%;
+        margin: 15px auto 25px;
+        display: block;
+    }    
+    .ease-text {
+        width: 80%;
+        text-align: center;
+        display: block;
+        margin: 15px auto 0;
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-device-width: 360px) and (max-device-width: 375px){
-    .hero-tagline, .meet-h1, .meet-tagline{
+    .hero-tagline, .meet-h1, .meet-tagline, .clean-tagline{
         font-size: 28px;
     }
     .hero-text, .hero-text > a {
@@ -151,7 +185,7 @@ button:focus {
     .mob-hide {
         display: none;
     }
-    .meet-tagline {
+    .meet-tagline, .clean-tagline {
         margin-top: 25px;
     }
     .meet-img {
@@ -165,6 +199,19 @@ button:focus {
     .services {
         padding-top: 50px;
         padding-bottom: 50px; 
+    }
+    .ease-img {
+        max-width: 50%;
+        max-height: 30%;
+        margin: 15px auto 25px;
+        display: block;
+    }    
+    .ease-text {
+        width: 80%;
+        text-align: center;
+        display: block;
+        margin: 15px auto 0;
+        font-size: 18px;
     }
 }
 
@@ -193,7 +240,7 @@ button:focus {
 }
 
 @media screen and (min-device-width: 376px) and (max-device-width: 414px){
-    .hero-tagline, .meet-h1{
+    .hero-tagline, .meet-h1, .clean-tagline{
         font-size: 36px;
     }
     .hero-text, .hero-text > a {
@@ -205,7 +252,7 @@ button:focus {
     .mob-hide {
         display: none;
     }
-    .meet-tagline{
+    .meet-tagline, .clean-tagline{
         font-size: 32px;
         margin-top: 30px;
     }
@@ -221,13 +268,26 @@ button:focus {
         padding-top: 50px;
         padding-bottom: 50px; 
     }
+    .ease-img {
+        max-width: 50%;
+        max-height: 40%;
+        margin: 15px auto 25px;
+        display: block;
+    }    
+    .ease-text {
+        width: 80%;
+        text-align: center;
+        display: block;
+        margin: 15px auto 0;
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: 415px) and (max-width: 500px){
     .hero-img {
         margin-top: 10vh;
     }
-    .hero-tagline{
+    .hero-tagline, .clean-tagline{
         font-size: 36px;
     }
     .hero-text, .hero-text > a {
@@ -241,42 +301,7 @@ button:focus {
     .mob-hide {
         display: none;
     }
-    .meet-tagline{
-        font-size: 32px;
-        margin-top: 30px;
-    }
-    .meet-img {
-        margin-top: 30px;
-    }
-    .meet-yellow-glove {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        margin-top: 50px;
-    }
-    .services {
-        padding-top: 50px;
-        padding-bottom: 50px; 
-    }
-}
-
-@media screen and (min-width: 501px) and (max-width: 768px){
-    .hero-img {
-        margin-top: 10vh;
-    }
-    .hero-tagline{
-        font-size: 48px;
-    }
-    .hero-text, .hero-text > a {
-        font-size: 21px;
-        margin-bottom: 25px;
-    }
-    .hero-text > a {
-        margin: 25px auto 25px !important;
-    }
-    .mob-hide {
-        display: none;
-    }
-    .meet-tagline{
+    .meet-tagline, .clean-tagline{
         font-size: 36px;
         margin-top: 30px;
     }
@@ -292,17 +317,86 @@ button:focus {
         padding-top: 50px;
         padding-bottom: 50px; 
     }
+    .ease-img {
+        max-width: 50%;
+        max-height: 40%;
+        margin: 15px auto 25px;
+        display: block;
+    }    
+    .ease-text {
+        width: 80%;
+        text-align: center;
+        display: block;
+        margin: 15px auto 0;
+        font-size: 18px;
+    }
 }
 
-@media screen and (min-width: 769px) and (max-width: 991px){
-    
+@media screen and (min-device-width: 501px) and (max-device-width: 768px){
+    .hero-img {
+        margin-top: 10vh;
+    }
+    .hero-tagline, .clean-tagline, .meet-h1{
+        font-size: 48px;
+    }
+    .hero-text, .hero-text > a {
+        font-size: 21px;
+        margin-bottom: 25px;
+    }
+    .hero-text > a {
+        margin: 25px auto 25px !important;
+    }
+    .mob-hide {
+        display: none;
+    }
+    .meet-tagline, .clean-tagline{
+        font-size: 38px;
+        margin-top: 30px;
+    }
+    .meet-img {
+        margin-top: 30px;
+    }
+    .meet-yellow-glove {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+    }
+    .services {
+        padding-top: 50px;
+        padding-bottom: 50px; 
+    }
+    .ease-img {
+        max-width: 50%;
+        max-height: 60%;
+        margin: 25px auto 25px;
+        display: block;
+    }    
+    .ease-text {
+        width: 50%;
+        text-align: center;
+        display: block;
+        margin: 15px auto 25px;
+        font-size: 21px;
+    }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px){
-    
+@media screen and (min-device-width: 769px) and (max-width: 991px) {    
+    .ease-img {
+        max-width: 50%;
+        max-height: 50%;
+        margin: 15px auto 25px;
+        display: block;
+    }    
+    .ease-text {
+        width:40%;
+        text-align: center;
+        display: block;
+        margin: 15px auto 0;
+        font-size: 18px;
+    }
 }
 
-@media screen and (min-width: 1199px) and (max-width: 1439px){
+@media screen and (min-device-width: 1199px) and (max-device-width: 1439px){
     .hero-tagline, .meet-h1{
         font-size: 48px;
     }
@@ -324,11 +418,17 @@ button:focus {
     .services-tagline {
         margin-top: 15vh;
     }
+    .clean-img {
+        margin-top: 10vh;
+    }
+    .clean-tagline {
+        margin-top: 20vh;
+    }
 }
 
 @media screen and (min-device-width: 1440px) and (max-device-width: 1679px){
     .container {
-        max-width: 90%;
+        max-width: 85%;
     }
     .hero-tagline, .meet-h1 {
         font-size: 3.5em;
@@ -351,12 +451,24 @@ button:focus {
         padding-bottom: 100px;
         padding-top: 100px;
     }
+    .mob-hide {
+        display: none;
+    }
     .services {
         padding-top: 100px;
         padding-bottom: 150px; 
     }
     .services-tagline {
         margin-top: 18vh;
+    }
+    .clean-img {
+        margin-top: 10vh;
+    }
+    .clean-tagline {
+        margin-top: 25vh;
+    }
+    .ease-img {
+        margin-top: 15vh;
     }
 }
 
@@ -391,12 +503,28 @@ button:focus {
         padding-bottom: 150px;
         padding-top: 100px;
     }
+    .mob-hide {
+        display: none;
+    }
     .services {
         padding-top: 100px;
         padding-bottom: 200px; 
     }
     .services-tagline {
         margin-top: 18vh;
+    }
+    .clean-img {
+        margin-top: 10vh;
+    }
+    .clean-tagline {
+        margin-top: 25vh;
+        font-size: 48px;
+    }
+    .ease-img {
+        margin-top: 20vh;
+    }
+    .ease-text {
+        font-size: 21px;
     }
 }
 
@@ -438,6 +566,25 @@ button:focus {
     .services-tagline {
         margin-top: 15vh;
     }
+    .mob-hide {
+        display: none
+    }
+    .clean-img {
+        margin-top: 10vh;
+    }
+    .clean-tagline {
+        margin-top: 22vh;
+        font-size: 48px;
+    }
+    .ease-img {
+        margin-top: 20vh;
+    }
+    h4 {
+        font-size: 32px;
+    }
+    .ease-text {
+        font-size: 24px;
+    }
 }
 
 @media screen and (min-width: 2560px) and (max-width: 3000px){
@@ -445,7 +592,7 @@ button:focus {
         max-width: 80%;
     }
     .navbar-brand > img  {
-        width: 200px;
+        width: 300px;
     }
     .hero-tagline, .meet-h1 {
         font-size: 6em;
@@ -453,20 +600,21 @@ button:focus {
     .hero-text {
         font-size: 32px;
         margin-top: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 35px;
     }
     .hero-text > a {
         font-size: 28px;
-        padding: 18px 30px;
+        padding: 25px 35px;
     }
     .hero-img {
         width: 180% !important;
         margin-top: 20vh;
     }
     .nav-item > a {
-        font-size: 21px !important;
+        font-size: 24px !important;
+        margin-left: 80px;
     }
-    .meet-tagline {
+    .meet-tagline, .clean-tagline {
         margin-top: 18vh;
         font-size: 54px;
     }
@@ -481,6 +629,32 @@ button:focus {
     }
     .services-tagline {
         margin-top: 13vh;
+    }
+    .mob-hide {
+        display: none
+    }
+    .clean-img {
+        margin-top: 10vh;
+    }
+    .clean-tagline {
+        margin-top: 22vh;
+        font-size: 64px;
+    }
+    .ease-img {
+        max-width: 60%;
+        max-height: 40%;
+        margin: 15vh auto 65px;
+        display: block;
+    }  
+    h4 {
+        font-size: 48px;
+    }  
+    .ease-text {
+        width:60%;
+        text-align: center;
+        display: block;
+        margin: 35px auto 0;
+        font-size: 28px;
     }
 }
 
