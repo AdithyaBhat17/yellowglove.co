@@ -3,6 +3,8 @@ import Navbar from './Navbar'
 import Hero from './Hero'
 import Meet from './Meet'
 import Services from './Services'
+import Cleaners from './Cleaners'
+import Ease from './Ease'
 
 class App extends React.Component{
     render(){
@@ -12,6 +14,8 @@ class App extends React.Component{
                 <Hero />
                 <Meet />
                 <Services />
+                <Cleaners />
+                <Ease />
             </div>
         )
     }

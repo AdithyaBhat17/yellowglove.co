@@ -4,7 +4,7 @@ import services from '../assets/services.png'
 
 const Services = () => (
     <div className="services" style={{backgroundColor: '#fff', color: '#323593'}}>
-        <div className="container">
+        <div className="container" style={{height: '100%'}}>
             <h1 className="meet-h1">Our Services</h1>
             <div className="row">
                 <div className="col-lg-6 col-sm-12">
