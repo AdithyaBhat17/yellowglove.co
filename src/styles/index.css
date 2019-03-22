@@ -126,11 +126,54 @@ h4 {
     font-size: 18px;
 }
 
+/* footer */
+
+.discount-img {
+    width: 50%;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+.discount-link {
+    color: #323593 !important;
+    background-color: #fff !important;
+    font-weight: bold;
+    font-size: 1.25em !important;
+}
+
+.footer {
+    padding-left: 5%;
+    /* display: block; */
+}
+
+.footer-link {
+    background-color: transparent !important;
+    padding: 0 !important;
+}
+
+.footer-img {
+    width: 80%;
+}
+
+.socials, .socials > i{
+    margin-right: 15px;
+    font-size: 1.35em;
+}
+
+.footer-text, .footer-link {
+    font-size: 16px ;
+}
+
+.footer-text > strong {
+    font-size: 1.25em;
+}
+
+
 @media screen and (min-device-width: 320px) and (max-device-width: 359px){
     .hero-tagline, .meet-h1, .meet-tagline, .clean-tagline{
         font-size: 28px;
     }
-    .hero-text, .hero-text > a {
+    .hero-text, .hero-text > a, .footer-text {
         font-size: 14px;
         margin-bottom: 20px;
     }
@@ -169,13 +212,19 @@ h4 {
         margin: 15px auto 0;
         font-size: 18px;
     }
+    .discount-img {
+        width: 90%
+    }
+    .footer-text > strong {
+        font-size: 1.35em;
+    }
 }
 
 @media screen and (min-device-width: 360px) and (max-device-width: 375px){
     .hero-tagline, .meet-h1, .meet-tagline, .clean-tagline{
         font-size: 28px;
     }
-    .hero-text, .hero-text > a {
+    .hero-text, .hero-text > a, .footer-text {
         font-size: 16px;
         margin-bottom: 20px;
     }
@@ -213,6 +262,12 @@ h4 {
         margin: 15px auto 0;
         font-size: 18px;
     }
+    .discount-img {
+        width: 90%
+    }
+    .footer-text > strong {
+        font-size: 1.35em;
+    }
 }
 
 @media screen and (device-width: 375px) and (device-height: 812px){
@@ -243,7 +298,7 @@ h4 {
     .hero-tagline, .meet-h1, .clean-tagline{
         font-size: 36px;
     }
-    .hero-text, .hero-text > a {
+    .hero-text, .hero-text > a, .footer-text {
         font-size: 18px;
     }
     .hero-text > a {
@@ -280,6 +335,12 @@ h4 {
         display: block;
         margin: 15px auto 0;
         font-size: 18px;
+    }
+    .discount-img {
+        width: 90%
+    }
+    .footer-text > strong {
+        font-size: 1.35em;
     }
 }
 
@@ -330,6 +391,12 @@ h4 {
         margin: 15px auto 0;
         font-size: 18px;
     }
+    .discount-img {
+        width: 90%
+    }
+    .footer-text > strong {
+        font-size: 1.35em;
+    }
 }
 
 @media screen and (min-device-width: 501px) and (max-device-width: 768px){
@@ -378,21 +445,137 @@ h4 {
         margin: 15px auto 25px;
         font-size: 21px;
     }
+    .discount-img {
+        width: 90%
+    }
+    .footer-text{
+        font-size: 18px;
+    }
+    .footer-img {
+        width: 50%;
+    }
+    .footer-text > strong {
+        font-size: 1.35em;
+    }
 }
 
-@media screen and (min-device-width: 769px) and (max-width: 991px) {    
+@media screen and (min-device-width: 769px) and (max-device-width: 991px) {    
+    .hero-img {
+        margin-top: 10vh;
+    }
+    .hero-tagline, .clean-tagline, .meet-h1{
+        font-size: 48px;
+    }
+    .hero-text, .hero-text > a {
+        font-size: 21px;
+        margin-bottom: 25px;
+    }
+    .hero-text > a {
+        margin: 25px auto 25px !important;
+    }
+    .mob-hide {
+        display: none;
+    }
+    .meet-tagline, .clean-tagline{
+        font-size: 38px;
+        margin-top: 30px;
+    }
+    .meet-img {
+        margin-top: 30px;
+    }
+    .meet-yellow-glove {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+    }
+    .services {
+        padding-top: 50px;
+        padding-bottom: 50px; 
+    }
     .ease-img {
         max-width: 50%;
-        max-height: 50%;
-        margin: 15px auto 25px;
+        max-height: 60%;
+        margin: 25px auto 25px;
         display: block;
     }    
     .ease-text {
-        width:40%;
+        width: 50%;
         text-align: center;
         display: block;
-        margin: 15px auto 0;
+        margin: 15px auto 25px;
+        font-size: 21px;
+    }
+    .discount-img {
+        width: 90%
+    }
+    .footer-text{
         font-size: 18px;
+    }
+    .footer-img {
+        width: 50%;
+    }
+    .footer-text > strong {
+        font-size: 1.35em;
+    }
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1198px) {    
+    .hero-img {
+        margin-top: 10vh;
+    }
+    .hero-tagline, .clean-tagline, .meet-h1{
+        font-size: 48px;
+    }
+    .hero-text, .hero-text > a {
+        font-size: 21px;
+        margin-bottom: 25px;
+    }
+    .hero-text > a {
+        margin: 25px auto 25px !important;
+    }
+    .mob-hide {
+        display: none;
+    }
+    .meet-tagline, .clean-tagline{
+        font-size: 38px;
+        margin-top: 30px;
+    }
+    .meet-img {
+        margin-top: 30px;
+    }
+    .meet-yellow-glove {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
+    }
+    .services {
+        padding-top: 50px;
+        padding-bottom: 50px; 
+    }
+    .ease-img {
+        max-width: 50%;
+        max-height: 60%;
+        margin: 25px auto 25px;
+        display: block;
+    }    
+    .ease-text {
+        width: 50%;
+        text-align: center;
+        display: block;
+        margin: 15px auto 25px;
+        font-size: 21px;
+    }
+    .discount-img {
+        width: 90%
+    }
+    .footer-text{
+        font-size: 18px;
+    }
+    .footer-img {
+        width: 50%;
+    }
+    .footer-text > strong {
+        font-size: 1.35em;
     }
 }
 
@@ -423,6 +606,12 @@ h4 {
     }
     .clean-tagline {
         margin-top: 20vh;
+    }    
+    .footer-text{
+        font-size: 14px !important;
+    }
+    .footer-text > strong {
+        font-size: 1.35em;
     }
 }
 
@@ -469,6 +658,9 @@ h4 {
     }
     .ease-img {
         margin-top: 15vh;
+    }
+    .footer-text, .footer-text > a {
+        font-size: 16px !important;
     }
 }
 
@@ -525,6 +717,15 @@ h4 {
     }
     .ease-text {
         font-size: 21px;
+    }
+    .footer-text {
+        font-size: 16px !important;
+    }
+    .footer-text > strong {
+        font-size: 1.5em;
+    }
+    .footer {
+        padding-left: 6%;
     }
 }
 
@@ -584,6 +785,15 @@ h4 {
     }
     .ease-text {
         font-size: 24px;
+    }
+    .footer-text {
+        font-size: 16px !important;
+    }
+    .footer-text > strong {
+        font-size: 1.5em;
+    }
+    .footer {
+        padding-left: 6%;
     }
 }
 
@@ -655,6 +865,18 @@ h4 {
         display: block;
         margin: 35px auto 0;
         font-size: 28px;
+    }
+    .footer-img {
+        width: 70%;
+    }
+    .footer-text, .footer-link {
+        font-size: 24px !important;
+    }
+    .footer-text > strong {
+        font-size: 1.5em;
+    }
+    .footer {
+        padding-left: 6%;
     }
 }
 
