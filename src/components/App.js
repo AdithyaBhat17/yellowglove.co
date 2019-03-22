@@ -5,6 +5,8 @@ import Meet from './Meet'
 import Services from './Services'
 import Cleaners from './Cleaners'
 import Ease from './Ease'
+import Discount from './Discount'
+import Footer from './Footer'
 
 class App extends React.Component{
     render(){
@@ -16,6 +18,8 @@ class App extends React.Component{
                 <Services />
                 <Cleaners />
                 <Ease />
+                <Discount />
+                <Footer />
             </div>
         )
     }
