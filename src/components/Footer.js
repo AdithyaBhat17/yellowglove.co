@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import footer_logo from '../assets/footer_logo.png'
 
@@ -7,7 +8,7 @@ const Footer = () => (
         <div className="container footer">
             <div className="row">
                 <div className="col-lg-3 col-sm-12">
-                    <img src={footer_logo} alt="Yellow Glove" title="Yellow glove" className="footer-img"/> <br/> <br/>
+                    <Link to="/"><img src={footer_logo} alt="Yellow Glove" title="Yellow glove" className="footer-img"/></Link> <br/> <br/>
                     <p className="hero-text footer-text">
                         Copyright &copy; 2019 Yellow Glove. <br/>
                         All rights reserved.
@@ -55,7 +56,7 @@ const Footer = () => (
                 <div className="col-lg-3 col-sm-12">
                     <p className="hero-text footer-text">
                         <strong>
-                            Terms Of Service
+                            <Link to="/terms" style={{textDecoration: 'none', color: '#fff'}}>Terms Of Service</Link>
                         </strong>
                     </p>
                 </div>

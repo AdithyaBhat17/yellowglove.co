@@ -18,6 +18,15 @@ module.exports = {
             use: ["html-loader"]
         },
         {
+            test: /\.md$/,
+            use: [{
+                loader: "html-loader"
+            },
+            {
+                loader: "markdown-loader"
+            }]
+        },
+        {
             test: /\.css$/,
             use: [{
                 loader: "style-loader"
@@ -45,10 +54,17 @@ module.exports = {
         }
         ]
     },
+    devServer: {
+        contentBase: path.join(__dirname, '/dist'),
+        compress: true,
+        port: 9000,
+        historyApiFallback: true,
+        publicPath: '/'
+    },
     plugins: [
         new HTMLWebpackPlugin({
             template: './src/index.html',
-            filename: './index.html'
+            filename: './index.html',
         })
     ]
 }

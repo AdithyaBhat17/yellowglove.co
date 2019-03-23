@@ -10,6 +10,18 @@
     font-weight: normal;
 }
 
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+p + ul > li {
+    margin-left: 5%; 
+}
+
+li > ul {
+    margin-left: 5%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -38,7 +50,7 @@ img {
     text-align: center;
 }
 
-.navbar-brand > img {
+.navbar-brand > a > img {
     width: 150px;
 }
 
@@ -801,7 +813,7 @@ h4 {
     .container {
         max-width: 80%;
     }
-    .navbar-brand > img  {
+    .navbar-brand > a > img  {
         width: 300px;
     }
     .hero-tagline, .meet-h1 {
