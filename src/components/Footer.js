@@ -22,7 +22,7 @@ const Footer = () => (
                         <a className="footer-link" title="contact us" href="mailto:hey@yellowglove.co">hey@yellowglove.co</a>
                     </p>
                     <p className="hero-text">
-                        <a className="footer-link" title="contact us" href="tel:9293331818">Phone: 9293331818</a>
+                        <a className="footer-link" title="contact us" href="tel:+19294974111">Phone: +1 929 497 4111</a>
                     </p>
                 </div>
                 <div className="col-lg-3 col-sm-12">

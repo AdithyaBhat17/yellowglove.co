@@ -10,7 +10,7 @@ const Hero = () => (
             <div className="col-lg-6 col-sm-12">
                 <h1 className="hero-tagline">Get your life back!</h1>
                 <p className="hero-text">
-                You’re busy. We Understand. <br/>
+                You’re busy. We Understand. <br className="mob-hide"/>
                 Yellow Glove is here to help you get the most out of life. <br className="mob-hide"/>
                 We’ll handle the clean up.
                 </p>
