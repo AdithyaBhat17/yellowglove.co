@@ -19,10 +19,10 @@ const Footer = () => (
                         <strong>Contact Us</strong>
                     </p>
                     <p className="hero-text">
-                        <a className="footer-link" href="mailto:hey@yellowglove.co">hey@yellowglove.co</a>
+                        <a className="footer-link" title="contact us" href="mailto:hey@yellowglove.co">hey@yellowglove.co</a>
                     </p>
                     <p className="hero-text">
-                        <a className="footer-link" href="tel:9293331818">Phone: 9293331818</a>
+                        <a className="footer-link" title="contact us" href="tel:9293331818">Phone: 9293331818</a>
                     </p>
                 </div>
                 <div className="col-lg-3 col-sm-12">
@@ -34,6 +34,7 @@ const Footer = () => (
                          className="footer-link socials"
                          href="https://twitter.com/YellowgloveN"
                          target="_blank"
+                         title="connect"
                          rel="noopener noreferrer">
                             <i className="fab fa-twitter"></i> 
                         </a>
@@ -41,6 +42,7 @@ const Footer = () => (
                          className="footer-link socials"
                          href="https://facebook.com/Yellow-Glove-332253457428440/"
                          target="_blank"
+                         title="connect"
                          rel="noopener noreferrer">
                             <i className="fab fa-facebook"></i> 
                         </a>
@@ -48,6 +50,7 @@ const Footer = () => (
                          className="footer-link socials"
                          href="https://instagram.com/yellowgloveny"
                          target="_blank"
+                         title="connect"
                          rel="noopener noreferrer">
                             <i className="fab fa-instagram"></i> 
                         </a>
@@ -56,7 +59,7 @@ const Footer = () => (
                 <div className="col-lg-3 col-sm-12">
                     <p className="hero-text footer-text">
                         <strong>
-                            <Link to="/terms" style={{textDecoration: 'none', color: '#fff'}}>Terms Of Service</Link>
+                            <Link to="/terms" title="terms" style={{textDecoration: 'none', color: '#fff'}}>Terms Of Service</Link>
                         </strong>
                     </p>
                 </div>

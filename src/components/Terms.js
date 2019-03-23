@@ -7,6 +7,7 @@ import Footer from './Footer'
 const Terms = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
+        document.title = "Terms of Service - Yellow Glove"
     })
 
     return (
