@@ -59,7 +59,8 @@ const Footer = () => (
                 <div className="col-lg-3 col-sm-12">
                     <p className="hero-text footer-text">
                         <strong>
-                            <Link to="/terms" title="terms" style={{textDecoration: 'none', color: '#fff'}}>Terms Of Service</Link>
+                            <Link to="/terms" title="terms" style={{textDecoration: 'none', color: '#fff'}}>Terms Of Service</Link> <br/> <br className="mob-hide" />
+                            <Link to="/privacy" title="privacy" style={{textDecoration: 'none', color: '#fff'}}>Privacy Policy</Link>
                         </strong>
                     </p>
                 </div>
