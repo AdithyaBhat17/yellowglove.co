@@ -182,6 +182,13 @@ h4 {
 
 
 @media screen and (min-device-width: 320px) and (max-device-width: 359px){
+    h2 {font-size: 24px;}
+    h3 {
+        font-size: 21px;
+    }
+    p {
+        font-size: 12px;
+    }
     .hero-tagline, .meet-h1, .meet-tagline, .clean-tagline{
         font-size: 28px;
     }
@@ -234,6 +241,13 @@ h4 {
 }
 
 @media screen and (min-device-width: 360px) and (max-device-width: 375px){
+    h2 {font-size: 24px;}
+    h3 {
+        font-size: 21px;
+    }
+    p {
+        font-size: 14px;
+    }
     .hero-tagline, .meet-h1, .meet-tagline, .clean-tagline{
         font-size: 28px;
     }
