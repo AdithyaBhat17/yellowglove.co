@@ -36,7 +36,7 @@ body, html{
 
 body {
     background-color: #ffcb00;
-    font-family: Manrope;
+    font-family: Manrope !important;
     color: #323593;
 }
 

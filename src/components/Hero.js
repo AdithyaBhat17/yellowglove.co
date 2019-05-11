@@ -15,8 +15,8 @@ const Hero = () => (
                 We’ll handle the clean up.
                 </p>
                 <p className="hero-text">
-                    <a href="javascript:void(0)" onClick={() => {Zenbooker.showPopupWidget('https://zenbooker.net/yellowglove');return false;}}>
-                        Book A Cleaning
+                    <a href="javascript:void(0)" onClick={() => ml_account('webforms', '1308350', 'h7y6k4', 'show')}>
+                        Get A Quote
                     </a>
                 </p>
             </div>
