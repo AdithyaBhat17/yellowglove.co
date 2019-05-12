@@ -64,14 +64,40 @@ button:focus {
 }
 
 .navbar-light .navbar-toggler {
-    color: #323593 !important;
-    border-color: #fff !important;
+    color: #fff !important;
     border: none !important;
-    margin-top: 10px;
+    font-size: 14px;
+    padding: 10px !important;
+    background-color: #323593;
+    font-family: Manrope;
+    /* margin-top: 10px; */
 }
 
-.navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='%23323593' stroke-width='2' stroke-linecap='linear' stroke-miterlimit='10' d='M4 7h30M4 17h17M4 '/></svg>");
+@keyframes pulse {
+    0% { 
+        opacity: 0.8;
+    }
+    50% { 
+        opacity: 1;
+    }
+    100% { 
+        opacity: 0.8;
+    }
+}@-webkit-keyframes pulse {
+    0% { 
+        opacity: 0.8;
+    }
+    50% { 
+        opacity: 1;
+    }
+    100% { 
+        opacity: 0.8;
+    }
+}
+
+.pulse {
+    animation: pulse 1s infinite;
+    font-weight: bold;
 }
 
 /* Hero */
@@ -182,6 +208,16 @@ h4 {
 
 
 @media screen and (min-device-width: 320px) and (max-device-width: 359px){
+    .navbar {
+        background-color: #ffffffff !important;
+        background: #fff !important;
+        z-index: 999;
+        width: 100%;
+        opacity: 1;
+        position: sticky !important;
+        top:0;
+        display: block;
+    }
     h2 {font-size: 24px;}
     h3 {
         font-size: 21px;
@@ -241,6 +277,16 @@ h4 {
 }
 
 @media screen and (min-device-width: 360px) and (max-device-width: 375px){
+    .navbar {
+        background-color: #ffffffff !important;
+        background: #fff !important;
+        z-index: 999;
+        width: 100%;
+        opacity: 1;
+        position: sticky !important;
+        top:0;
+        display: block;
+    }
     h2 {font-size: 24px;}
     h3 {
         font-size: 21px;
@@ -300,6 +346,16 @@ h4 {
 }
 
 @media screen and (device-width: 375px) and (device-height: 812px){
+    .navbar {
+        background-color: #ffffffff !important;
+        background: #fff !important;
+        z-index: 999;
+        width: 100%;
+        opacity: 1;
+        position: sticky !important;
+        top:0;
+        display: block;
+    }
     .hero-tagline{
         font-size: 36px;
     }
@@ -324,6 +380,16 @@ h4 {
 }
 
 @media screen and (min-device-width: 376px) and (max-device-width: 414px){
+    .navbar {
+        background-color: #ffffffff !important;
+        background: #fff !important;
+        z-index: 999;
+        width: 100%;
+        opacity: 1;
+        position: sticky !important;
+        top:0;
+        display: block;
+    }
     .hero-tagline, .meet-h1, .clean-tagline{
         font-size: 36px;
     }
@@ -376,6 +442,16 @@ h4 {
 }
 
 @media screen and (min-width: 415px) and (max-width: 500px){
+    .navbar {
+        background-color: #ffffffff !important;
+        background: #fff !important;
+        z-index: 999;
+        width: 100%;
+        opacity: 1;
+        position: sticky !important;
+        top:0;
+        display: block;
+    }
     .hero-img {
         margin-top: 10vh;
     }
@@ -433,6 +509,16 @@ h4 {
 }
 
 @media screen and (min-device-width: 501px) and (max-device-width: 768px){
+    .navbar {
+        background-color: #ffffffff !important;
+        background: #fff !important;
+        z-index: 999;
+        width: 100%;
+        opacity: 1;
+        position: sticky !important;
+        top:0;
+        display: block;
+    }
     .hero-img {
         margin-top: 10vh;
     }

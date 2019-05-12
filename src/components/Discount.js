@@ -14,8 +14,8 @@ const Discount = () => (
                 <a
                     href="javascript:void(0)"
                     className="discount-link"
-                    onClick={() => {Zenbooker.showPopupWidget('https://zenbooker.net/yellowglove');return false;}}>
-                    Reserve Now!
+                    onClick={() => ml_account('webforms', '1308350', 'h7y6k4', 'show')}>
+                    Get A Quote
                 </a>
             </p>
         </div>
