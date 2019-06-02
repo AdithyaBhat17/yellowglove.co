@@ -11,7 +11,9 @@ const Terms = lazy(() => import('./components/Terms'))
 const Privacy = lazy(() => import('./components/Privacy'))
 
 const loading = (
-    <div style={{background: 'white', height: '100vh', textAlign: 'center'}}>loading...</div>
+    <div style={{background: 'white', height: '100vh', paddingTop: '45vh'}}>
+        <FulfillingSquareSpinner color="#323593" className="loading" />
+    </div>
 )
 
 ReactDOM.render(
